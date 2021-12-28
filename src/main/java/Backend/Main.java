@@ -34,7 +34,7 @@ public class Main {
 	    } catch (IOException e) {}
         try {
 			Files.createDirectories(config);
-            //TODO initialize config
+            //TODO initialize config from JSONobject https://javadoc.io/doc/org.json/json/latest/index.html
 		} catch (IOException e) {}
         try {
 			Files.createDirectories(data);
