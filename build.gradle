@@ -1,0 +1,24 @@
+
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'Backend.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'org.json:json:20211205'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Backend/Main'
+    }
+
+}
