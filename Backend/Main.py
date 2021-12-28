@@ -276,7 +276,7 @@ class Main:
         self.dump()
         
 
-    #TODO check the appropriate directory to see if the the directory exists but reads as untracked. Probably a variation of refresh, if not refresh
+    #TODO check the appropriate directory to see if the the directory exists but reads as untracked. Probably a variation of refresh, if not refresh    
     def repop(self, Name, dir):
         """Recreate a paticular directory in data but not present actually. Dir is boolean which refers to which 
         dictionary it belongs to: data or archive. 0 for data, 1 for archive
